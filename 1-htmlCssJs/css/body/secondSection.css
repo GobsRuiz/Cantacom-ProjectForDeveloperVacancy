@@ -83,7 +83,6 @@
 
     background-color: var(--secondary);
     border-radius: 10px;
-
     position: relative;
 }
 #secondSection-rightContent video{
@@ -204,7 +203,7 @@
     }
 
     /* Form || email address */
-    #secondSection-container-input{
+    #secondSection-leftContent-input{
         justify-content: center;
     }
 
@@ -216,7 +215,7 @@
     }
 
     /* Controls */
-    #secondSection-rightContent-video-controls{
+    #secondSection-rightContent-controls{
         width: 70%;
 
         transform: translateX(-50%);
@@ -233,7 +232,7 @@
     }   
 
     /* Controls */
-    #secondSection-rightContent-video-controls{
+    #secondSection-rightContent-controls{
         width: 100%;
 
         transform: translateX(-50%);
@@ -243,6 +242,7 @@
 
 /* 400 */
 @media (max-width: 400px) {
+    /* Left content */
     /* Form || email address */
     #secondSection-leftContent-input{
         flex-direction: column;
@@ -256,5 +256,12 @@
     /* Btn */
     #secondSection-leftContent-input button{
         border-radius: 10px;
+    }
+
+
+
+    /* Right content */
+    #secondSection-rightContent{
+        display: none;
     }
 }   
