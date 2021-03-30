@@ -41,7 +41,7 @@
     display: flex;
     justify-content: space-between;
 
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
 }
 /* div */
 .thirdSection-imageTeamMembers-div {
@@ -69,6 +69,39 @@
     left: 0;
 }
 
+
+
+
+
+/* Social networks */
+/* h3 */
+#thirdSection-socialNetworks h3{
+    margin-bottom: .7rem;
+}
+/* p */
+#thirdSection-socialNetworks p{
+    margin-bottom: 1rem;
+}
+/* Icons */
+#thirdSection-socialNetworks-icons{
+    display: flex;
+    justify-content: center;
+}
+/* i */
+#thirdSection-socialNetworks-icons i{
+    color: #fff;
+    font-size: 1rem;
+    background-color: #d4d4d4;
+    border-radius: 50%;
+    cursor: pointer;
+
+    margin: 0 5px;
+    padding: 10px;
+    transition: color .2s, background-color .2s;
+}
+#thirdSection-socialNetworks-icons i:hover{
+    background-color: var(--primary);
+}
 
 
 

@@ -1,0 +1,15 @@
+/* Title */
+.title{
+    color: var(--secondary);
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* paragraph */
+.paragraph{
+    color: #848484;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: var(--lineHeight-1);
+}
