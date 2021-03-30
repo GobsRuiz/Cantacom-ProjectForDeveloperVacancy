@@ -1,7 +1,7 @@
 #thirdSection{
     text-align: center;
 
-    padding: 50px 20px;
+    padding: var(--paddingy-section);
 }
 
 
@@ -83,5 +83,11 @@
     }
 }
 
-
-
+/* 800 */
+@media (max-width: 800px) {
+    /* Text */
+    /* p */
+    #thirdSection-text{
+        padding: 0 20px;
+    }
+}

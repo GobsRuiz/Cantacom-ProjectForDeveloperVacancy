@@ -7,6 +7,9 @@
 
     /* Line height */
     --lineHeight-1: 1.7rem;
+
+    /* Padding */
+    --paddingy-section: 50px 0;
 }
 
 
