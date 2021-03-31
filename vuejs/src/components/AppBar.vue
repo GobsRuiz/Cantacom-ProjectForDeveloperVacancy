@@ -1,7 +1,7 @@
 <template>
-  <v-app-bar id="header" app height="450px" src="../assets/header/banner.jpg.png">
+  <v-app-bar id="header" height="450px" src="../assets/header/banner.jpg.png">
     <!-- Container -->
-    <div class="container d-flex justify-space-between">
+    <div class="container d-flex justify-space-between flex-wrap">
       <!-- Left content -->
       <div id="header-leftContent" class="d-flex flex-column justify-center pr-10">
           <!-- Img -->
@@ -85,6 +85,8 @@ export default {};
 #header-rightContent img{
     width: auto;
     height: 320px;
+
+    transform: translateY(10px);
 }
 
 
@@ -93,7 +95,7 @@ export default {};
 
 /* Responsive */
 /* 700 */
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     /* Container */
     .container{
         flex-direction: column;
