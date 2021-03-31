@@ -1,3 +1,13 @@
+/* container */
+.container{
+    width: 75%;
+
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+
 /* Title */
 .title{
     color: var(--secondary);
@@ -6,10 +16,23 @@
     text-transform: capitalize;
 }
 
+
+
 /* paragraph */
 .paragraph{
     color: #848484;
     font-size: 1rem;
     font-weight: 500;
     line-height: var(--lineHeight-1);
+}
+
+
+
+/* Responsive */
+/* 750 */
+@media (max-width: 750px) {
+    /* Container */
+    .container{
+        width: 95%;
+    }
 }

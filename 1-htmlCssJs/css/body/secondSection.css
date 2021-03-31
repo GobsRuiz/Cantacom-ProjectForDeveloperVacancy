@@ -21,19 +21,10 @@
 }
 /* h3 */
 #secondSection-leftContent h3{
-    color: var(--secondary);
-    font-size: 1.3rem;
-    font-weight: 500;
-    text-transform: capitalize;
-
     margin-bottom: 1rem;
 }
 /* p */
 #secondSection-leftContent p{
-    color: #848484;
-    font-size: 1rem;
-    line-height: var(--lineHeight-1);
-
     margin-bottom: 1rem;
 }
 

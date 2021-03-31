@@ -31,20 +31,8 @@
 
 /* h6 */
 .firstSection-card h6{
-    color: var(--secondary);
-    font-size: 1.5rem;
-    font-weight: 500;
-
     margin-top: 1.8rem;
     margin-bottom: 1rem;
-}
-
-/* h6 */
-.firstSection-card p{
-    color: #848484;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: var(--lineHeight-1);
 }
 
 

@@ -11,11 +11,6 @@
 /* Text */
 /* p */
 #thirdSection-text{
-    color: #848484;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: var(--lineHeight-1);
-
     margin-bottom: 1rem;
 }
 
