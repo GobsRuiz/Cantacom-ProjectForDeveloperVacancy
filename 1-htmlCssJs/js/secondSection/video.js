@@ -50,10 +50,14 @@ function  video() {
         if(!video.classList[0]){
             video.classList.add("videoFullscreen");
             controls.classList.add("videoFullscreen-controls");
+            pauseStartBtn.classList.add("videoFullscreen-controls");
+
             fullScreen.innerHTML = "fullscreen_exit";
         }else if(video.classList[0]){
             video.classList.remove("videoFullscreen")
             controls.classList.remove("videoFullscreen-controls")
+            pauseStartBtn.classList.remove("videoFullscreen-controls");
+
             fullScreen.innerHTML = "fullscreen";
         }
     }
