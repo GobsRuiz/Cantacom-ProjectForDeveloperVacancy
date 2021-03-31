@@ -7,12 +7,12 @@ html{
     font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6, p, span, i{
+h1, h2, h3, h4, h5, h6, p, span, i, a{
     font-family: 'Roboto', sans-serif;
 }
 
-button{
-    border: 0;
+a{
+    text-decoration: none;
 }
 
 button{
