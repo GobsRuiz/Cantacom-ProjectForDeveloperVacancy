@@ -116,8 +116,6 @@
 
     flex-direction: row;
     align-items: flex-end;
-
-    border: 1px solid tomato;
     
     position: fixed;
     left: 50%;

@@ -40,13 +40,13 @@
 }
 /* div */
 .thirdSection-imageTeamMembers-div {
-    width: 45px;
+    width: 50px;
     height: 35px;
 
     cursor: pointer;
     object-fit: cover;
 
-    margin: 2px 2px;
+    margin: 2px 1px;
     position: relative;
 }
 /* img */
