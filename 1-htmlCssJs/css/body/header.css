@@ -1,5 +1,5 @@
 #header{
-    height: 70vh;
+    height: 450px;
 
     background-image: url("../../images/header/banner.jpg.png");
     background-size: cover;
@@ -21,7 +21,7 @@
 
 /* Left content */
 #header-leftContent{
-    width: 400px;
+    max-width: 400px;
     
     display: flex;
     flex-direction: column;
@@ -73,7 +73,7 @@
 }
 /* img */
 #header-rightContent img{
-    height: 60vh;
+    height: 370px;
 }
 
 
@@ -81,6 +81,43 @@
 
 
 /* Responsive */
+/* 1024 */
+@media (min-width: 1024px) and (max-width: 1024px){
+    /* Height */
+    /* 1366 */
+    @media (min-height: 1366px) and (max-height: 1366px){
+        #header{
+            height: 50vh;
+        }
+    
+        /* Container */
+        #header-container{
+            flex-direction: column;
+        }    
+
+
+
+        /* Left content */
+        #header-leftContent{
+            width: auto;
+
+            padding: 0 20px;
+            padding-top: 20px;
+        }
+
+
+
+        /* Right content */
+        #header-rightContent{
+            justify-content: flex-end;
+        }
+        /* img */
+        #header-rightContent img{
+            height: 25rem;
+        }
+    }
+}
+
 /* 800 */
 @media (max-width: 800px) {
     #header{

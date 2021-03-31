@@ -1,6 +1,7 @@
 /* container */
 .container{
     width: 75%;
+    max-width: 1300px;
 
     box-sizing: border-box;
     margin: 0 auto;
