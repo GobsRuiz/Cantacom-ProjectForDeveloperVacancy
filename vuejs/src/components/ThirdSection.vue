@@ -10,89 +10,89 @@
     <p class="mb-4">Nome do membro da equipe</p>
 
     <!-- Images of team members -->
-    <row class="d-flex justify-space-between mb-12">
-      <div class="images">
+    <row class="d-flex justify-center flex-wrap mb-12">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Olivia.png" max-width="50"></v-img>
       </div>
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Vitor.png" max-width="50"></v-img>
       </div>
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Leticia.png" max-width="50"></v-img>
       </div>
-      <div class="images">
+      <div class="images mr-1">
         <v-img
           src="../assets/thirdSection/José&Patrícia.png"
           max-width="50"
         ></v-img>
       </div>
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Carlos.png" max-width="50"></v-img>
       </div>
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Cintia.png" max-width="50"></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/André.png" max-width="50"></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Ana.png" max-width="50"></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Eduardo.png" max-width="50"></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Jonathan.png" max-width="50"></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Sofia.png" max-width="50"></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img
           src="../assets/thirdSection/Paschoal&Magdalena.png"
           max-width="50"
         ></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Laudenir.png" max-width="50"></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Ester.png" max-width="50"></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Isaac.png" max-width="50"></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Paulo.png" max-width="50"></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Luciano.png" max-width="50"></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Marina.png" max-width="50"></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Geraldo.png" max-width="50"></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/Marcelo.png" max-width="50"></v-img>
       </div>
 
-      <div class="images">
+      <div class="images mr-1">
         <v-img src="../assets/thirdSection/luiz.png" max-width="50"></v-img>
       </div>
     </row>
@@ -115,12 +115,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+};
 </script>
 
 <style scoped>
 /* Images */
 .images{
+    padding: 2px 0;
     position: relative;
 }
 .images:hover::after {

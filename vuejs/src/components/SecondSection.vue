@@ -2,9 +2,9 @@
   <!-- Second section -->
   <section id="secondSection" class="py-10">
     <!-- Container -->
-    <row class="container d-flex justify-space-between">
+    <row id="row" class="container d-flex justify-space-between">
       <!-- Left content -->
-      <v-col cols="12" md="5">
+      <v-col cols="12" md="5" id="leftContent">
         <h3 class="text-h6 mb-3">Get notified of any updates!</h3>
         <p class="text-subtitle-1 mb-5 white2-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
@@ -13,7 +13,7 @@
           eligendi itaque vero, dolores commodi. Ducimus, explicabo!
         </p>
 
-        <div class="d-flex">
+        <div class="d-flex justify-center">
           <input type="text" id="leftContent-form-input" placeholder="Email Address">
           <v-btn color="#2ecc71" dark elevation="0" height="50" class="text-capitalize text-h6" id="leftContent-form-btn">
               Notify
@@ -22,7 +22,7 @@
       </v-col>
 
       <!-- right content -->
-      <v-col cols="12" md="auto">
+      <v-col cols="12" md="auto" class="text-center" id="rightContent">
           <video
             id="my-video"
             class="video-js"
@@ -78,5 +78,34 @@ export default {};
     border-bottom-right-radius: 20px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+}
+
+
+
+
+
+/* Responsive */
+/* 960 */
+@media (max-width: 960px) {
+  #row{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+
+  /* Left content */
+  #leftContent{
+    text-align: center;
+
+    margin-bottom: 30px;
+  }
+
+
+
+  /* Right content */
+  #rightContent video{
+    width: 100%;
+  }
 }
 </style>
