@@ -121,3 +121,19 @@
         padding: 0 20px;
     }
 }
+
+/* 240 */
+@media (max-width: 240px) {
+    /* Height */
+    /* 320 */
+    @media (max-height: 320px) {
+        /* Social networks */
+        /* Icons */
+        #thirdSection-socialNetworks-icons{
+            flex-wrap: wrap;
+        }
+        #thirdSection-socialNetworks-icons i{
+            margin: 5px;
+        }
+    }
+}
