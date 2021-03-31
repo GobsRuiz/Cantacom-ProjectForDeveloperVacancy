@@ -81,8 +81,8 @@
 
 
 /* Responsive */
-/* 600 */
-@media (max-width: 600px) {
+/* 800 */
+@media (max-width: 800px) {
     #header{
         height: 80vh;
     }
@@ -110,19 +110,130 @@
     }
     /* img */
     #header-rightContent img{
-        height: 12rem;
+        height: 25rem;
+    }
+
+
+
+    /* Height */
+    /* 1280 */
+    @media (min-height: 1280px) and (max-height: 1280px){
+        #header{
+            height: 55vh;
+        }
+
+        /* Right content */
+        /* img */
+        #header-rightContent img{
+            height: 28rem;
+        }
     }
 }
 
-/* 320 */
-@media (max-width: 320px) {
+/* 768 */
+@media (max-width: 768px) and (min-width: 768px) {
+    /* Height */
+    /* 1024 */
+    @media (max-height: 1024px) and (min-height: 1024px) {
+        #header{
+            height: 40vh;
+        }
+        
+        #header-container{
+            flex-direction: row;
+        }
+
+        /* Right content */
+        /* img */
+        #header-rightContent img{
+            height: 280px;
+        }
+    }
+}
+
+/* 640 */
+@media (max-width: 640px) and (min-width: 640px) {
+    /* Height */
+    /* 360 */
+    @media (min-height: 360px) and (max-height: 360px){
+        #header{
+            height: 100vh;
+        }
+        
+        /* Container */
+        #header-container{
+            flex-direction: row;
+        }
+
+        /* Right content */
+        /* img */
+        #header-rightContent img{
+            height: 280px;
+        }
+    }
+}
+
+/* 600 */
+@media (max-width: 600px) and (min-width: 600px) {
+    /* Height */
+    /* 960 */
+    @media (min-height: 960px) and (max-height: 960px){
+        #header{
+            height: 60vh;
+        }
+
+        /* Right content */
+        /* img */
+        #header-rightContent img{
+            height: 340px;
+        }
+    }
+}
+
+/* 450 */
+@media (max-width: 450px) {
     #header{
-        height: 85vh;
+        height: 75vh;
     }
 
     /* Right content */
     /* img */
     #header-rightContent img{
-        height: 11rem;
+        height: 300px;
+    }
+}
+
+/* 412 */
+@media (max-width: 410px) and (min-width: 420px) {
+    /* Height */
+    /* 730 */
+    @media (min-height: 730px) and (max-height: 740px){
+        #header{
+            border: 5px solid red;
+        }
+    }
+}
+
+/* 384 */
+@media (max-width: 384px) {
+    #header{
+        height: 85vh;
+    }
+}
+
+/* 320 */
+@media (max-width: 320px) {
+    /* Height */
+    /* 533 */
+    @media (min-height: 533px) and (max-height: 533px){
+        /* Logo */
+        #header-leftContent img{
+            width: 130px;
+        }
+        /* Right content */
+        /* img */
+        #header-rightContent img{
+            height: 200px;
+        }
     }
 }

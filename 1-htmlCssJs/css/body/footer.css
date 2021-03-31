@@ -6,9 +6,10 @@ footer{
 
 /* nav */
 footer nav{
-    width: 500px;
+    max-width: 550px;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
     margin: 0 auto;
@@ -17,4 +18,24 @@ footer nav{
 footer nav a{
     color: #848484;
     font-size: 1rem;
+
+    padding: 0 15px;
+}
+
+
+
+
+
+/* Responsive */
+/* 550 */
+@media (max-width: 550px) {
+    /* nav */
+    footer nav{
+        justify-content: center;
+    }
+    
+    /* a */
+    footer nav a{
+        padding: 10px 15px;
+    }
 }

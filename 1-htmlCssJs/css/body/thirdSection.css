@@ -24,7 +24,7 @@
     font-size: 1rem;
     font-weight: 500;
 
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -34,7 +34,7 @@
 /* Image of team members */
 #thirdSection-imageTeamMembers{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
     margin-bottom: 2.5rem;
 }
@@ -43,8 +43,10 @@
     width: 45px;
     height: 35px;
 
+    cursor: pointer;
     object-fit: cover;
 
+    margin: 2px 2px;
     position: relative;
 }
 /* img */
