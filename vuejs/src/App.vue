@@ -29,6 +29,9 @@ export default {
 :root{
   --primary: #2ecc71;
 }
+.white2-text{
+  color: #848484;
+}
 
 
 
