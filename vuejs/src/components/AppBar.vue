@@ -3,7 +3,7 @@
     <!-- Container -->
     <div class="container d-flex justify-space-between">
       <!-- Left content -->
-      <div id="header-leftContent" class="d-flex flex-column justify-center py-0 pr-10" style="border: 1px solid red;">
+      <div id="header-leftContent" class="d-flex flex-column justify-center py-0 pr-10">
           <!-- Img -->
           <img src="../assets/header/logo.png" alt="Notifly" class="mb-5">
 
@@ -23,7 +23,7 @@
       </div>
 
       <!-- Right content -->
-      <div id="header-rightContent" class="d-flex align-end" style="border: 1px solid red;">
+      <div id="header-rightContent" class="d-flex align-end">
         <img src="../assets/header/cell.png" alt="celular">
       </div>
     </div>
