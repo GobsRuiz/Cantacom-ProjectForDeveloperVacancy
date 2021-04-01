@@ -18,3 +18,14 @@ a{
 button{
     cursor: pointer;
 }
+
+
+
+
+
+/* Responsive */
+@media (max-width: 320px) {
+    html{
+        font-size: 14px;
+    }
+}

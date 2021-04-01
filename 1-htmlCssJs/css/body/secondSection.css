@@ -21,11 +21,11 @@
 }
 /* h3 */
 #secondSection-leftContent h3{
-    margin-bottom: 1rem;
+    margin-bottom: 15px;
 }
 /* p */
 #secondSection-leftContent p{
-    margin-bottom: 1rem;
+    margin-bottom: 15px;
 }
 
 /* Form || email address */
@@ -161,7 +161,7 @@
     background-color: #666666;
     border: 1px solid #969696;
 
-    margin-right: .4rem
+    margin-right: 5px;
 }
 #secondSection-rightContent-controls-rightContent-progress-bar{
     width: 1%;
@@ -176,7 +176,7 @@
 
     cursor: pointer;
 
-    margin-right: .4rem;
+    margin-right: 5px;
 }
 
 /* hd */
@@ -188,7 +188,7 @@
     text-transform: uppercase;
     cursor: pointer;
 
-    margin-right: .4rem;
+    margin-right: 5px;
 }
 
 /* Fullscreen */
@@ -217,7 +217,7 @@
     #secondSection-leftContent{
         text-align: center;
 
-        margin-bottom: 3rem;
+        margin-bottom: 30px;
     }
 
     /* Form || email address */
@@ -269,11 +269,12 @@
     #secondSection-leftContent-input input{
         border-radius: 10px;
 
-        margin-bottom: .2rem;
+        margin-bottom: 5px;
     }
     /* Btn */
     #secondSection-leftContent-input button{
         border-radius: 10px;
+        transform: translateX(0);
     }
 
 
@@ -323,5 +324,13 @@
     #secondSection-rightContent-controls-pausePlayBtn,
     #secondSection-rightContent-controls-pausePlayBtn.videoFullscreen-controls{
         border-radius: 0;
+    }
+}
+
+/* 320 */
+@media (max-width: 320px) {
+    
+    #secondSection-leftContent-input input{
+        width: 150px;
     }
 }
