@@ -103,19 +103,35 @@
       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
     </p>
 
+    <!-- Icons -->
     <v-row class="justify-center">
-      <v-icon class="icons rounded-circle mr-2 pa-2"> mdi-twitter </v-icon>
-      <v-icon class="icons rounded-circle mr-2 pa-2"> mdi-facebook </v-icon>
-      <v-icon class="icons rounded-circle mr-2 pa-2"> mdi-pinterest </v-icon>
-      <v-icon class="icons rounded-circle mr-2 pa-2"> mdi-google-plus </v-icon>
-      <v-icon class="icons rounded-circle mr-2 pa-2"> mdi-linkedin </v-icon>
-      <v-icon class="icons rounded-circle pa-2"> mdi-youtube </v-icon>
+      <v-col v-for="(icon, i) in icons" :key="i" cols="auto" class="pa-0 px-2">
+        <v-icon class="icons rounded-circle pa-2 my-1">{{icon}}</v-icon>
+      </v-col>
     </v-row>
   </section>
 </template>
 
 <script>
 export default {
+    data: () => ({
+        icons: [
+          'mdi-twitter',
+          'mdi-facebook',
+          'mdi-pinterest',
+          'mdi-google-plus',
+          'mdi-linkedin',
+          'mdi-youtube',
+        ],
+        images: [
+          '~/assets/thirdSection/Olivia.png',
+          '~/assets/thirdSection/Olivia.png',
+          '../assets/thirdSection/luiz.png',
+          '~/assets/1.png',
+          '../assets/header/logo.png',
+          '../assets/header/cell.png',
+        ]
+    }),
 };
 </script>
 

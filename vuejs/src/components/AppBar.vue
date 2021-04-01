@@ -1,9 +1,9 @@
 <template>
-  <v-app-bar id="header" height="450px" src="../assets/header/banner.jpg.png">
+  <v-app-bar id="header" height="450" src="../assets/header/banner.jpg.png">
     <!-- Container -->
-    <div class="container d-flex justify-space-between flex-wrap">
+    <div class="container d-flex justify-space-between">
       <!-- Left content -->
-      <div id="header-leftContent" class="d-flex flex-column justify-center pr-10">
+      <div id="header-leftContent" class="d-flex flex-column justify-center py-0 pr-10" style="border: 1px solid red;">
           <!-- Img -->
           <img src="../assets/header/logo.png" alt="Notifly" class="mb-5">
 
@@ -13,27 +13,17 @@
           </p>
 
           <!-- Platforms -->
-          <div>
-            <span class="header-leftContent-platforms-icons rounded-circle mr-2 pa-2">
-                <v-icon color="#decfb5">
-                    mdi-apple
+          <div class="d-flex">
+              <v-col cols="1" class="pa-0 pr-13" v-for="icon in icons" :key="icon">
+                <v-icon class="header-leftContent-platforms-icons rounded-circle pa-2" color="#decfb5">
+                    {{icon}}
                 </v-icon>
-            </span>
-            <span class="header-leftContent-platforms-icons rounded-circle mr-2 pa-2">
-                <v-icon color="#decfb5">
-                    mdi-android
-                </v-icon>
-            </span>
-            <span class="header-leftContent-platforms-icons rounded-circle pa-2">
-                <v-icon color="#decfb5">
-                    mdi-microsoft-windows
-                </v-icon>
-            </span>
+              </v-col>
           </div>
       </div>
 
       <!-- Right content -->
-      <div id="header-rightContent" class="d-flex align-end">
+      <div id="header-rightContent" class="d-flex align-end" style="border: 1px solid red;">
         <img src="../assets/header/cell.png" alt="celular">
       </div>
     </div>
@@ -41,7 +31,15 @@
 </template>
 
 <script>
-export default {};
+export default {
+    data: () => ({
+        icons: [
+            "mdi-apple",
+            "mdi-android",
+            "mdi-microsoft-windows",
+        ]
+    })
+};
 </script>
 
 <style scoped>
@@ -58,10 +56,6 @@ export default {};
 
 
 /* Left content */
-#header-leftContent{
-    max-width: 400px;
-}
-
 /* Logo */
 #header-leftContent img{
     width: 150px;
@@ -94,18 +88,11 @@ export default {};
 
 
 /* Responsive */
-/* 700 */
-@media (max-width: 750px) {
+/* 900 */
+@media (max-width: 900px) {
     /* Container */
     .container{
         flex-direction: column;
-    }
-
-
-
-    /* Left content */
-    #header-leftContent{
-        padding-top: 10px;
     }
 
 
@@ -119,4 +106,32 @@ export default {};
         height: 200px;
     }
 }
-</style>
+
+/* ********** - 450 */
+@media (max-width: 450px){
+    /* Right content */
+    /* img */
+    #header-rightContent img{
+        width: auto;
+        height: 150px;
+    }
+}
+
+/* ********** - 300 */
+@media (max-width: 300px){
+    /* Left content */
+    /* Logo */
+    #header-leftContent img{
+        width: 120px;
+    }
+
+
+
+    /* Right content */
+    /* img */
+    #header-rightContent img{
+        width: auto;
+        height: 120px;
+    }
+}
+</style> 

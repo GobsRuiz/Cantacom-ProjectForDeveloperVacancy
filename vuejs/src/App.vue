@@ -46,4 +46,16 @@ export default {
 
   margin: 0 auto;
 }
+
+
+
+
+
+/* Responsive */
+/* 500 */
+@media (max-width: 500px){
+  .container{
+    width: 95%;
+  }
+}
 </style>

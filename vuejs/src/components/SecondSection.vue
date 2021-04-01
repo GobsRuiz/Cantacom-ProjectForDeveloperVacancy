@@ -13,7 +13,7 @@
           eligendi itaque vero, dolores commodi. Ducimus, explicabo!
         </p>
 
-        <div class="d-flex justify-center">
+        <div id="leftContent-form" class="d-flex">
           <input type="text" id="leftContent-form-input" placeholder="Email Address">
           <v-btn color="#2ecc71" dark elevation="0" height="50" class="text-capitalize text-h6" id="leftContent-form-btn">
               Notify
@@ -101,11 +101,49 @@ export default {};
     margin-bottom: 30px;
   }
 
+  /* Form */
+  #leftContent-form{
+    justify-content: center;
+  }
+
 
 
   /* Right content */
   #rightContent video{
     width: 100%;
+  }
+}
+
+/* 550 */
+@media (max-width: 550px) {
+  /* Left content */
+  #leftContent{
+    margin-bottom: 0px;
+  }
+}
+
+/* 450 */
+@media (max-width: 500px) {
+  /* Left content */
+  /* Form */
+  #leftContent-form{
+    flex-direction: column;
+  }
+
+  /* Input */
+  #leftContent-form-input{
+    border-radius: 20px;
+
+    margin-bottom: 5px;
+  }
+
+  /* btn */
+  #leftContent-form-btn{
+    width: 100px;
+
+    border-radius: 20px;
+
+    margin: 0 auto;
   }
 }
 </style>
